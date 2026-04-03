@@ -1,0 +1,93 @@
+Solver command line: ['/opt/homebrew/bin/ipopt', '/var/folders/6y/bvynbx6n3zv7z3lwg6vd724r0000gn/T/tmp8zi6rcpr.pyomo.nl', '-AMPL', 'tol=1e-06', 'max_iter=300', 'print_level=5', 'warm_start_init_point=yes', 'warm_start_bound_push=1e-06', 'warm_start_bound_frac=1e-06', 'warm_start_mult_bound_push=1e-06', 'mu_init=1e-06', 'least_square_init_duals=no']
+
+Ipopt 3.14.19: tol=1e-06
+max_iter=300
+print_level=5
+warm_start_init_point=yes
+warm_start_bound_push=1e-06
+warm_start_bound_frac=1e-06
+warm_start_mult_bound_push=1e-06
+mu_init=1e-06
+least_square_init_duals=no
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.14.19, running with linear solver MUMPS 5.6.2.
+
+Number of nonzeros in equality constraint Jacobian...:      864
+Number of nonzeros in inequality constraint Jacobian.:      640
+Number of nonzeros in Lagrangian Hessian.............:      483
+
+Total number of variables............................:      125
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:      125
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:      115
+Total number of inequality constraints...............:      160
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:      160
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  3.0391064e+04 2.00e+00 9.63e+01  -6.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.9567400e+04 1.88e+00 9.08e+01  -6.0 1.29e+01   0.0 6.44e-02 5.60e-02f  1
+   2  2.9567397e+04 1.88e+00 9.08e+01  -6.0 1.54e+01  -0.5 1.38e-01 1.30e-07h  1
+   3  2.9182277e+04 1.85e+00 8.95e+01  -6.0 1.95e+01  -1.0 2.81e-03 1.38e-02f  1
+   4  2.9182272e+04 1.85e+00 8.95e+01  -6.0 1.84e+01    -  2.54e-01 2.24e-07h  1
+   5  2.8869527e+04 1.82e+00 8.82e+01  -6.0 1.83e+01    -  1.11e-03 1.38e-02f  1
+   6r 2.8869527e+04 1.82e+00 9.99e+02   0.3 0.00e+00    -  0.00e+00 2.85e-07R  5
+   7r 3.2189254e+04 1.42e+00 9.99e+02   0.3 1.39e+04    -  3.88e-04 2.70e-04f  1
+   8r 3.1080190e+04 9.91e-01 9.98e+02   0.3 1.22e+04    -  8.02e-04 3.92e-04f  1
+   9r 3.2538911e+04 4.05e-01 9.95e+02   0.3 5.88e+02    -  3.56e-03 1.68e-03f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10r 3.3832338e+04 2.33e-01 9.66e+02   0.3 1.10e+02    -  2.98e-02 5.40e-03f  1
+  11  3.3728018e+04 2.33e-01 1.00e+02  -6.0 1.36e+06    -  1.12e-06 2.29e-06f  1
+  12  3.3709159e+04 2.33e-01 1.00e+02  -6.0 3.23e+05    -  1.40e-05 3.87e-06f  1
+  13  3.3706586e+04 2.33e-01 1.00e+02  -6.0 3.66e+04    -  1.37e-04 1.42e-05f  1
+  14  3.3702296e+04 2.33e-01 1.00e+02  -6.0 1.19e+04    -  1.31e-03 1.56e-04f  1
+  15  3.3680119e+04 2.32e-01 1.00e+02  -6.0 9.64e+03    -  6.18e-04 1.55e-04f  4
+  16  3.3681355e+04 2.32e-01 9.99e+01  -6.0 6.17e+02    -  1.65e-02 4.98e-04h  3
+  17  3.3715938e+04 2.30e-01 9.90e+01  -6.0 1.24e+02    -  1.76e-01 9.30e-03h  2
+  18  3.3765492e+04 2.26e-01 9.72e+01  -6.0 1.04e+02    -  5.25e-02 1.80e-02h  4
+  19  3.4652999e+04 1.68e-01 7.44e+01  -6.0 3.08e+01    -  3.52e-01 2.34e-01H  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  3.5828427e+04 2.00e-01 4.88e+01  -6.0 2.66e+01    -  2.96e-02 5.12e-01H  1
+  21  3.6394875e+04 1.43e-01 2.20e+01  -6.0 1.06e+01    -  3.91e-01 4.12e-01h  1
+  22  3.6442229e+04 1.36e-01 2.09e+01  -6.0 3.46e+00    -  3.66e-03 4.76e-02h  1
+  23  3.6456083e+04 1.34e-01 2.06e+01  -6.0 3.59e+00    -  1.17e-01 1.38e-02h  1
+  24  3.6859680e+04 8.12e-02 1.20e+01  -6.0 3.56e+00    -  1.74e-01 4.02e-01h  1
+  25  3.7279084e+04 3.47e-02 1.00e+01  -6.0 2.29e+00    -  1.55e-01 5.82e-01h  1
+  26  3.7332107e+04 2.87e-02 4.15e+00  -6.0 8.15e-01    -  1.00e+00 1.73e-01h  1
+  27  3.7587073e+04 3.07e-04 1.34e-01  -6.0 7.01e-01    -  1.00e+00 9.94e-01h  1
+  28  3.7589338e+04 1.63e-07 4.48e-05  -6.0 6.73e-03    -  1.00e+00 1.00e+00h  1
+  29  3.7589339e+04 2.05e-14 1.00e-11  -6.0 6.59e-06    -  1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30  3.7589338e+04 2.97e-13 5.04e-11  -7.0 6.22e-06    -  1.00e+00 1.00e+00f  1
+
+Number of Iterations....: 30
+
+                                   (scaled)                 (unscaled)
+Objective...............:   1.0107655343398879e+03    3.7589338230489877e+04
+Dual infeasibility......:   5.0385586722699938e-11    1.8737885265331668e-09
+Constraint violation....:   2.9651281430176368e-13    2.9651281430176368e-13
+Variable bound violation:   2.2616526873520115e-08    2.2616526873520115e-08
+Complementarity.........:   9.0930739562102527e-08    3.3816213640295004e-06
+Overall NLP error.......:   9.0930739562102527e-08    3.3816213640295004e-06
+
+
+Number of objective function evaluations             = 52
+Number of objective gradient evaluations             = 28
+Number of equality constraint evaluations            = 52
+Number of inequality constraint evaluations          = 53
+Number of equality constraint Jacobian evaluations   = 32
+Number of inequality constraint Jacobian evaluations = 32
+Number of Lagrangian Hessian evaluations             = 30
+Total seconds in IPOPT                               = 0.052
+
+EXIT: Optimal Solution Found.
+

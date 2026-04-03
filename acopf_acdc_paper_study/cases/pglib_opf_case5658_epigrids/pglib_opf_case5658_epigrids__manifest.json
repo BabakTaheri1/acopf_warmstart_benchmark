@@ -1,0 +1,15 @@
+{
+  "case_name": "pglib_opf_case5658_epigrids",
+  "case_file": "test_cases/pglib_opf_case5658_epigrids.mat",
+  "case_sha256": "6196992016e0eeb685c1c6daf08c94ac13dd8b407ad23c3d801ca5e9f3398ba6",
+  "shared_case_prep_time": 0.09068179130554199,
+  "baseline_success": true,
+  "n_runs": 82,
+  "n_successful_runs": 82,
+  "n_runs_matching_baseline_objective": 0,
+  "dc_success": true,
+  "case_output_dir": "acopf_acdc_paper_study/cases/pglib_opf_case5658_epigrids",
+  "case_runs_csv": "acopf_acdc_paper_study/cases/pglib_opf_case5658_epigrids/pglib_opf_case5658_epigrids__runs.csv",
+  "case_solutions_npz": "acopf_acdc_paper_study/cases/pglib_opf_case5658_epigrids/pglib_opf_case5658_epigrids__solutions.npz",
+  "case_payload_json_gz": "acopf_acdc_paper_study/cases/pglib_opf_case5658_epigrids/pglib_opf_case5658_epigrids__payload.json.gz"
+}

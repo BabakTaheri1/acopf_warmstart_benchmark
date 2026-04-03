@@ -1,0 +1,25 @@
+\begin{table*}[!t]
+\centering
+\caption{Dual decomposition summary: convergence and performance by dual-mode family. ``Conv.\ rate'' is the fraction of attempted runs that converge. The primal-only family (no duals) and full primal+dual family (block-matched bounds) are included as reference. Constraint-dual-only and bounds-dual-only families isolate the stationarity (Lemma~\ref{lem:residual}) and complementarity (Corollary~\ref{cor:compl}) channels respectively. Dual-only rows supply no primal blocks.}
+\label{tab:dual_decomposition_summary}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{llrrrrr}
+\toprule
+Family & Dual mode & Total runs & Converged & Conv.\ rate [\%] & Median solve [s] & Median speedup [\%] \\
+\midrule
+Oracle AC primal-only & \texttt{none} & 270 & 266 & 98.5 & 3.896 & 5.8 \
+Oracle AC primal+dual & \texttt{full} & 270 & 190 & 70.4 & 0.766 & -31.1 \
+\midrule
+Oracle AC constraint-dual-only & \texttt{constraint\_only} & 270 & 217 & 80.4 & 1.492 & -13.6 \
+Oracle AC bounds-dual-only & \texttt{bounds\_only} & 270 & 188 & 69.6 & 0.746 & -45.6 \
+Oracle AC primal+dual (all bounds) & \texttt{full\_all\_bounds} & 270 & 245 & 90.7 & 1.555 & 26.8 \
+\midrule
+Oracle dual-only (constraint) & \texttt{constraint\_only} & 18 & 13 & 72.2 & 1.023 & -39.2 \
+Oracle dual-only (bounds) & \texttt{all\_bounds\_only} & 18 & 14 & 77.8 & 1.795 & -36.2 \
+Oracle dual-only (full) & \texttt{full\_all\_bounds} & 18 & 14 & 77.8 & 0.732 & 8.6 \
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table*}

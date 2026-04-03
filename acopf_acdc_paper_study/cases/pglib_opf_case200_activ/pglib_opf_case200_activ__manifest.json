@@ -1,0 +1,15 @@
+{
+  "case_name": "pglib_opf_case200_activ",
+  "case_file": "test_cases/pglib_opf_case200_activ.mat",
+  "case_sha256": "bc4d652a4417309c320bb8da58974bd846283d5c09dd8ca8f60cea650c56744d",
+  "shared_case_prep_time": 0.003063201904296875,
+  "baseline_success": true,
+  "n_runs": 82,
+  "n_successful_runs": 82,
+  "n_runs_matching_baseline_objective": 0,
+  "dc_success": true,
+  "case_output_dir": "acopf_acdc_paper_study/cases/pglib_opf_case200_activ",
+  "case_runs_csv": "acopf_acdc_paper_study/cases/pglib_opf_case200_activ/pglib_opf_case200_activ__runs.csv",
+  "case_solutions_npz": "acopf_acdc_paper_study/cases/pglib_opf_case200_activ/pglib_opf_case200_activ__solutions.npz",
+  "case_payload_json_gz": "acopf_acdc_paper_study/cases/pglib_opf_case200_activ/pglib_opf_case200_activ__payload.json.gz"
+}

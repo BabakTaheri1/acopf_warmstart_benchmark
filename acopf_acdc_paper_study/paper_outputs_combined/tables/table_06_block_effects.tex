@@ -1,0 +1,44 @@
+\begin{table}[!t]
+\centering
+\caption{Marginal AC solve-time statistics for each initialization block. ``Avg.\ reduction [\%]'' $= (t_{\text{excl}} - t_{\text{incl}})/t_{\text{excl}} \times 100$. \textbf{These marginals are secondary diagnostics}; the combination heatmap (Fig.~\ref{fig:oracle_heatmap}) is the reliable guide.}
+\label{tab:block_effects}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{adjustbox}{width=\columnwidth}
+\begin{tabular}{p{2.7cm}lrrr}
+\toprule
+Family & Block & Avg.\ incl.\ [s] & Avg.\ excl.\ [s] & Avg.\ reduction [\%] \\
+\midrule
+Oracle AC primal-only & $V_a$ & 16.895 & 25.890 & 34.7 \\
+Oracle AC primal-only & $V_m$ & 17.127 & 25.413 & 32.6 \\
+Oracle AC primal-only & $P_g$ & 17.975 & 24.562 & 26.8 \\
+Oracle AC primal-only & $Q_g$ & 22.622 & 19.214 & -17.7 \\
+\midrule
+Oracle AC primal+dual & $V_a$ & 8.530 & 13.533 & 37.0 \\
+Oracle AC primal+dual & $V_m$ & 9.491 & 12.192 & 22.2 \\
+Oracle AC primal+dual & $P_g$ & 11.677 & 9.276 & -25.9 \\
+Oracle AC primal+dual & $Q_g$ & 10.123 & 11.429 & 11.4 \\
+\midrule
+Oracle AC constraint-dual-only & $V_a$ & 11.754 & 12.408 & 5.3 \\
+Oracle AC constraint-dual-only & $V_m$ & 12.268 & 11.806 & -3.9 \\
+Oracle AC constraint-dual-only & $P_g$ & 10.297 & 14.445 & 28.7 \\
+Oracle AC constraint-dual-only & $Q_g$ & 10.785 & 13.462 & 19.9 \\
+\midrule
+Oracle AC bounds-dual-only & $V_a$ & 10.749 & 8.541 & -25.9 \\
+Oracle AC bounds-dual-only & $V_m$ & 10.868 & 8.503 & -27.8 \\
+Oracle AC bounds-dual-only & $P_g$ & 9.667 & 9.954 & 2.9 \\
+Oracle AC bounds-dual-only & $Q_g$ & 9.075 & 10.561 & 14.1 \\
+\midrule
+Oracle AC primal+dual (all bounds) & $V_a$ & 10.087 & 14.265 & 29.3 \\
+Oracle AC primal+dual (all bounds) & $V_m$ & 10.707 & 13.222 & 19.0 \\
+Oracle AC primal+dual (all bounds) & $P_g$ & 13.908 & 9.544 & -45.7 \\
+Oracle AC primal+dual (all bounds) & $Q_g$ & 9.682 & 14.240 & 32.0 \\
+\midrule
+DC-seeded & $V_a$ & 16.519 & 17.825 & 7.3 \\
+DC-seeded & $V_m$ & --- & 16.946 & --- \\
+DC-seeded & $P_g$ & 18.267 & 14.226 & -28.4 \\
+DC-seeded & $Q_g$ & --- & 16.946 & --- \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

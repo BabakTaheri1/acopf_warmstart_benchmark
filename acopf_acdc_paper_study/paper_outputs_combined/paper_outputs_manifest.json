@@ -1,0 +1,95 @@
+{
+  "study_dir": "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study",
+  "out_dir": "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined",
+  "matrix_cell_mode": "time_speedup_iter",
+  "has_extended_dual": true,
+  "figures": {
+    "case_size_runtime": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_01_case_size_vs_runtime.pdf",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_01_case_size_vs_runtime.png"
+    ],
+    "performance_profile": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_02_performance_profile.pdf",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_02_performance_profile.png"
+    ],
+    "casewise_speedups": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_03_casewise_speedups.pdf",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_03_casewise_speedups.png"
+    ],
+    "oracle_combo_heatmap_speedup": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_04_oracle_combo_heatmap_speedup.pdf",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_04_oracle_combo_heatmap_speedup.png"
+    ],
+    "block_effects": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_06_block_effects.pdf",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_06_block_effects.png"
+    ],
+    "speedup_vs_case_size": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_07_speedup_vs_case_size.pdf",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_07_speedup_vs_case_size.png"
+    ],
+    "speedup_distributions": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_08_speedup_distributions.pdf",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_08_speedup_distributions.png"
+    ],
+    "baseline_vs_best": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_09_baseline_vs_best_scatter.pdf",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_09_baseline_vs_best_scatter.png"
+    ],
+    "dc_native_boxplot": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_12_dc_native_boxplot.pdf",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_12_dc_native_boxplot.png"
+    ],
+    "dual_decomposition_heatmap": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_13_dual_decomposition_heatmap.pdf",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_13_dual_decomposition_heatmap.png"
+    ],
+    "dual_only_bar": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_14_dual_only_bar.pdf",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/figures/fig_14_dual_only_bar.png"
+    ]
+  },
+  "tables": {
+    "global_summary": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_01_global_summary.csv",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_01_global_summary.tex"
+    ],
+    "pairwise_tests": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_02_pairwise_tests.csv",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_02_pairwise_tests.tex"
+    ],
+    "combo_rank_oracle": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_03_combo_ranking_oracle.csv",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_03_combo_ranking_oracle.tex"
+    ],
+    "combo_rank_dc": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_05_combo_ranking_dc_seed.csv",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_05_combo_ranking_dc_seed.tex"
+    ],
+    "block_effects": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_06_block_effects.csv",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_06_block_effects.tex"
+    ],
+    "largest_cases": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_08_casewise_largest_cases.csv",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_08_casewise_largest_cases.tex"
+    ],
+    "combo_wins": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_10_combo_wins.csv",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_10_combo_wins.tex"
+    ],
+    "family_wins": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_12_family_wins.csv",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_12_family_wins.tex"
+    ],
+    "all_warmstarts_matrix": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_13_all_warmstarts_matrix_time_speedup_iter.csv",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_13_all_warmstarts_matrix_time_speedup_iter.tex"
+    ],
+    "dual_decomposition_summary": [
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_14_dual_decomposition_summary.csv",
+      "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/tables/table_14_dual_decomposition_summary.tex"
+    ]
+  },
+  "report": "/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_acdc_paper_study/paper_outputs_combined/paper_outputs_README.md"
+}

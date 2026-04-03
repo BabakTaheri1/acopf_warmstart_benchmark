@@ -1,0 +1,15 @@
+{
+  "case_name": "pglib_opf_case39_epri",
+  "case_file": "test_cases/pglib_opf_case39_epri.mat",
+  "case_sha256": "79b4c64f88238db3c5700c8cd98d6074c1fc9e93a3c7cc8a6730fe02ea0396d6",
+  "shared_case_prep_time": 0.002167940139770508,
+  "baseline_success": true,
+  "n_runs": 82,
+  "n_successful_runs": 82,
+  "n_runs_matching_baseline_objective": 0,
+  "dc_success": true,
+  "case_output_dir": "acopf_acdc_paper_study/cases/pglib_opf_case39_epri",
+  "case_runs_csv": "acopf_acdc_paper_study/cases/pglib_opf_case39_epri/pglib_opf_case39_epri__runs.csv",
+  "case_solutions_npz": "acopf_acdc_paper_study/cases/pglib_opf_case39_epri/pglib_opf_case39_epri__solutions.npz",
+  "case_payload_json_gz": "acopf_acdc_paper_study/cases/pglib_opf_case39_epri/pglib_opf_case39_epri__payload.json.gz"
+}

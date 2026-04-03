@@ -1,0 +1,27 @@
+\begin{table*}[!t]
+\centering
+\caption{Matched-case pairwise Wilcoxon signed-rank tests~\cite{wilcoxon1945}. Holm correction uses $\alpha/(m-k+1)$ with $m=12$, $\alpha=0.05$~\cite{holm1979}. The Hodges--Lehmann estimator $\widehat{\Delta}_{HL}$~\cite{hodges1963estimates} is the median of all Walsh averages of paired differences; negative values indicate method~B is faster. All rows involve case-wise best envelopes ([UB] = ex-post upper-bound comparison; descriptive rather than inferential).}
+\label{tab:pairwise_tests}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{p{4.8cm}rrrrrrrrrrr}
+\toprule
+Comparison & $n$ & Med.\ A [s] & Med.\ B [s] & Wins A & Wins B & $\widehat{\Delta}_{HL}$ [s] & Raw $p$ & Holm $p$ & Bonf.\ $p$ & Sig.\ (Holm) & Sig.\ (Bonf.) \\
+\midrule
+Baseline vs. oracle primal-only [UB] & 18 & 3.826 & 3.258 & 0 & 18 & -2.409 & $<$0.0001 & $<$0.0001 & $<$0.0001 & \checkmark & \checkmark \
+Baseline vs. oracle primal+dual [UB] & 18 & 3.826 & 1.804 & 0 & 18 & -5.329 & $<$0.0001 & $<$0.0001 & $<$0.0001 & \checkmark & \checkmark \
+Baseline solve vs. best DC solve [UB] & 18 & 3.826 & 3.840 & 4 & 14 & -1.221 & 0.0237 & 0.1184 & 0.2841 & $\times$ & $\times$ \
+Baseline total vs. best DC E2E [UB] & 18 & 4.005 & 4.628 & 12 & 6 & 0.090 & 0.4171 & 0.9114 & 1.0000 & $\times$ & $\times$ \
+Oracle primal+dual vs. DC solve [UB] & 18 & 1.804 & 3.840 & 18 & 0 & 3.570 & $<$0.0001 & $<$0.0001 & $<$0.0001 & \checkmark & \checkmark \
+Oracle primal+dual vs. DC E2E [UB] & 18 & 1.804 & 4.628 & 18 & 0 & 6.274 & $<$0.0001 & $<$0.0001 & $<$0.0001 & \checkmark & \checkmark \
+Oracle primal+dual vs. constraint-dual [UB] & 18 & 1.804 & 1.944 & 13 & 5 & 0.082 & 0.0814 & 0.3257 & 0.9771 & $\times$ & $\times$ \
+Oracle primal+dual vs. bounds-dual [UB] & 17 & 1.337 & 3.104 & 16 & 1 & 1.469 & $<$0.0001 & 0.0005 & 0.0009 & \checkmark & \checkmark \
+Oracle primal+dual vs. primal+dual all-bounds [UB] & 18 & 1.804 & 1.784 & 7 & 11 & -0.008 & 0.3038 & 0.9114 & 1.0000 & $\times$ & $\times$ \
+Constraint-dual vs. bounds-dual [UB] & 17 & 1.499 & 3.104 & 16 & 1 & 1.646 & 0.0005 & 0.0030 & 0.0060 & \checkmark & \checkmark \
+Baseline vs. constraint-dual [UB] & 18 & 3.826 & 1.944 & 0 & 18 & -5.128 & $<$0.0001 & $<$0.0001 & $<$0.0001 & \checkmark & \checkmark \
+Baseline vs. bounds-dual [UB] & 17 & 2.719 & 3.104 & 6 & 11 & -0.016 & 0.6777 & 0.9114 & 1.0000 & $\times$ & $\times$ \
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table*}

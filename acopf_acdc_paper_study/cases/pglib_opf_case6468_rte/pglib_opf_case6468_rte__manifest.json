@@ -1,0 +1,15 @@
+{
+  "case_name": "pglib_opf_case6468_rte",
+  "case_file": "test_cases/pglib_opf_case6468_rte.mat",
+  "case_sha256": "41c78e559cfe6b7faab77c378d5b720e50656890f865412122bd82ed569e8bf9",
+  "shared_case_prep_time": 0.0632331371307373,
+  "baseline_success": true,
+  "n_runs": 82,
+  "n_successful_runs": 82,
+  "n_runs_matching_baseline_objective": 0,
+  "dc_success": true,
+  "case_output_dir": "acopf_acdc_paper_study/cases/pglib_opf_case6468_rte",
+  "case_runs_csv": "acopf_acdc_paper_study/cases/pglib_opf_case6468_rte/pglib_opf_case6468_rte__runs.csv",
+  "case_solutions_npz": "acopf_acdc_paper_study/cases/pglib_opf_case6468_rte/pglib_opf_case6468_rte__solutions.npz",
+  "case_payload_json_gz": "acopf_acdc_paper_study/cases/pglib_opf_case6468_rte/pglib_opf_case6468_rte__payload.json.gz"
+}

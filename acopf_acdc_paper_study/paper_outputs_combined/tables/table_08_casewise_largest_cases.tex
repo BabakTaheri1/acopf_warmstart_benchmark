@@ -1,0 +1,24 @@
+\begin{table*}[!t]
+\centering
+\caption{Warm-start performance on the eight largest benchmark instances. All best oracle PD results use the full-vector $V_a{+}V_m{+}P_g{+}Q_g$ restart. ``Best DC solve blocks'' identifies the DC combination with the shortest AC solve time.}
+\label{tab:largest_cases}
+\scriptsize
+\setlength{\tabcolsep}{4.0pt}
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Case & $n_b$ & $n_l$ & Baseline solve [s] & Best oracle PD [s] & Best DC solve blocks & Best DC solve [s] & Best DC E2E [s] & Best speedup (any method) [\%] \\
+\midrule
+\texttt{pglib\_opf\_case3022\_goc} & 3022 & 4135 & 8.975 & 4.601 & $V_a$ & 6.529 & 7.962 & 65.4 \
+\texttt{pglib\_opf\_case4020\_goc} & 4020 & 6988 & 15.534 & 4.883 & $V_a{+}P_g$ & 12.021 & 14.961 & 68.6 \
+\texttt{pglib\_opf\_case5658\_epigrids} & 5658 & 9078 & 14.982 & 8.028 & $V_a{+}P_g$ & 11.942 & 18.200 & 56.1 \
+\texttt{pglib\_opf\_case6468\_rte} & 6468 & 9000 & 45.822 & 8.511 & $V_a{+}P_g$ & 58.667\rlap{$^*$} & 61.965 & 85.7 \
+\texttt{pglib\_opf\_case7336\_epigrids} & 7336 & 11521 & 16.312 & 8.317 & $V_a{+}P_g$ & 15.204 & 20.844 & 49.0 \
+\texttt{pglib\_opf\_case10000\_goc} & 10000 & 13193 & 30.326 & 11.308 & $V_a$ & 27.365 & 34.370 & 63.1 \
+\texttt{pglib\_opf\_case13659\_pegase} & 13659 & 20467 & 45.014 & 17.136 & $V_a{+}P_g$ & 37.476 & 49.377 & 61.9 \
+\texttt{pglib\_opf\_case30000\_goc} & 30000 & 35393 & 165.383 & 38.037 & $V_a$ & 107.184 & 129.390 & 77.0 \
+\bottomrule
+\multicolumn{9}{l}{\footnotesize $^*$ All three DC combinations are slower than the baseline on this case.}
+\end{tabular}
+\end{adjustbox}
+\end{table*}

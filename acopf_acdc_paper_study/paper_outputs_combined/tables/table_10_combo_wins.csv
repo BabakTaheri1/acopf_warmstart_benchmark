@@ -1,0 +1,24 @@
+blocks,case_wins,family,family_label
+Pg,1,oracle_ac_primal_only,Oracle AC primal-only
+Pg+Qg,1,oracle_ac_primal_only,Oracle AC primal-only
+Pg+Qg+Va,2,oracle_ac_primal_only,Oracle AC primal-only
+Pg+Qg+Vm+Va,6,oracle_ac_primal_only,Oracle AC primal-only
+Pg+Va,2,oracle_ac_primal_only,Oracle AC primal-only
+Pg+Vm,1,oracle_ac_primal_only,Oracle AC primal-only
+Pg+Vm+Va,3,oracle_ac_primal_only,Oracle AC primal-only
+Qg+Va,1,oracle_ac_primal_only,Oracle AC primal-only
+Qg+Vm+Va,1,oracle_ac_primal_only,Oracle AC primal-only
+Pg+Qg+Va,1,oracle_ac_primal_dual,Oracle AC primal+dual
+Pg+Qg+Vm,1,oracle_ac_primal_dual,Oracle AC primal+dual
+Pg+Qg+Vm+Va,16,oracle_ac_primal_dual,Oracle AC primal+dual
+Pg+Qg+Vm+Va,18,oracle_ac_constraint_dual,Oracle AC constraint-dual-only
+Pg+Qg+Vm+Va,15,oracle_ac_bounds_dual,Oracle AC bounds-dual-only
+Pg+Vm+Va,2,oracle_ac_bounds_dual,Oracle AC bounds-dual-only
+Pg+Qg+Vm+Va,9,oracle_ac_primal_dual_all_bounds,Oracle AC primal+dual (all bounds)
+Pg+Vm+Va,1,oracle_ac_primal_dual_all_bounds,Oracle AC primal+dual (all bounds)
+Qg+Va,1,oracle_ac_primal_dual_all_bounds,Oracle AC primal+dual (all bounds)
+Qg+Vm+Va,6,oracle_ac_primal_dual_all_bounds,Oracle AC primal+dual (all bounds)
+Va,1,oracle_ac_primal_dual_all_bounds,Oracle AC primal+dual (all bounds)
+Pg,6,dc_seed,DC-seeded
+Pg+Va,9,dc_seed,DC-seeded
+Va,3,dc_seed,DC-seeded
