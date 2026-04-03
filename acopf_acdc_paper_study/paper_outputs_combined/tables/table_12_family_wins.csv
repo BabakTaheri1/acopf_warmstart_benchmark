@@ -1,7 +1,0 @@
-family,case_wins_by_best_solve_time,family_label
-oracle_ac_primal_only,0,Oracle AC primal-only
-oracle_ac_primal_dual,7,Oracle AC primal+dual
-oracle_ac_constraint_dual,1,Oracle AC constraint-dual-only
-oracle_ac_bounds_dual,0,Oracle AC bounds-dual-only
-oracle_ac_primal_dual_all_bounds,10,Oracle AC primal+dual (all bounds)
-dc_seed,0,DC-seeded

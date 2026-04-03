@@ -1,9 +1,0 @@
-Family,Short,Dual mode,Total runs,Converged,Conv. rate [%],Median solve [s],Median speedup [%]
-Oracle AC primal-only,O-PO,none,270,266,98.51851851851852,3.8955819606781006,5.776006566273143
-Oracle AC primal+dual,O-PD,full,270,190,70.37037037037037,0.7662004232406616,-31.096081370802715
-Oracle AC constraint-dual-only,O-CD,constraint_only,270,217,80.37037037037037,1.4922082424163818,-13.570837225693493
-Oracle AC bounds-dual-only,O-BD,bounds_only,270,188,69.62962962962963,0.745948076248169,-45.64167799823833
-Oracle AC primal+dual (all bounds),O-PD-AB,full_all_bounds,270,245,90.74074074074075,1.5553910732269287,26.806079640355943
-Oracle dual-only (constraint),DO-C,constraint_only,18,13,72.22222222222223,1.0229299068450928,-39.18130051386599
-Oracle dual-only (bounds),DO-B,all_bounds_only,18,14,77.77777777777777,1.7949455976486206,-36.184602867076926
-Oracle dual-only (full),DO-F,full_all_bounds,18,14,77.77777777777777,0.7318228483200073,8.57681877591428

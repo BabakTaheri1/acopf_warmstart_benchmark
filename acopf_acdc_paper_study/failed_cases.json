@@ -1,7 +1,0 @@
-[
-  {
-    "case_file": "test_cases/pglib_opf_case9241_pegase.mat",
-    "error": "Solver (ipopt) did not exit normally",
-    "traceback": "Traceback (most recent call last):\n  File \"/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_batch_study.py\", line 2060, in run_batch_study\n    result = run_case_study(\n        case_file,\n    ...<7 lines>...\n        objective_match_tol=objective_match_tol,\n    )\n  File \"/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_batch_study.py\", line 1888, in run_case_study\n    out = solve_one_ac(\n        ctx=ctx,\n    ...<11 lines>...\n        dual_mode=dual_mode,\n    )\n  File \"/Users/babaktaheri/Desktop/Github/python/ACOPF_BENCH3/acopf_batch_study.py\", line 1284, in solve_one_ac\n    results = solver.solve(model, tee=tee, logfile=log_path)\n  File \"/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/pyomo/opt/base/solvers.py\", line 654, in solve\n    raise ApplicationError(\"Solver (%s) did not exit normally\" % self.name)\npyomo.common.errors.ApplicationError: Solver (ipopt) did not exit normally\n"
-  }
-]
